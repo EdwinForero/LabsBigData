@@ -1,0 +1,17 @@
+/****** Object:  Table [dbo].[DimSexo]    Script Date: 4/3/2022 9:17:39 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DimSexo](
+	[ID_Sexo] [nchar](1) NOT NULL,
+	[Desc_Sexo] [nvarchar](10) NULL,
+ CONSTRAINT [PK_DimSexo] PRIMARY KEY CLUSTERED 
+(
+	[ID_Sexo] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
